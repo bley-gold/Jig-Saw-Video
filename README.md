@@ -1,6 +1,6 @@
 # Jigsaw Puzzle Game
 
-Welcome to the Jigsaw Puzzle Game! This project is a simple web-based game where users can solve a jigsaw puzzle by dragging and dropping pieces into place.
+Welcome to the Jigsaw Puzzle Game! This project is a simple web-based game where users can solve a jigsaw puzzle by dragging and dropping pieces into place. Once done the  picture turns into a video and plays.
 
 ## Instructions:
 
