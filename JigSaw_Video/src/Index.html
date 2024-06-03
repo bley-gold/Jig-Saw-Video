@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Jigsaw Video</title>
+    <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body id="body" onLoad="init();">
+<h2>Jigsaw Video</h2>
+<div class="instructions">
+    <p>To play the game:</p>
+    <ol>
+        <li>Click and drag pieces to move them.</li>
+        <li>Arrange pieces to complete the puzzle.</li>
+        <li>Submit your feedback when done.</li>
+    </ol>
+</div>
+<form id="questionform" name="questionform" onSubmit="return endjigsaw();">
+    <input name="submitbut" type="submit" value="Do Jigsaw Again" class="button"/>
+    Feedback: <input name="feedback" placeholder="Enter your feedback" class="feedback"/>
+</form>
+<video id="bars" controls="controls" preload="auto" width="800">
+    <source src="../videos/monkeybars.mp4">
+    <source src="../videos/monkeybars.webm">
+    <source src="../videos/monkeybars.ogg">
+</video>
+<img src="barsBase.png" id="base" width="800px" height="420px"/>
+<script src="script.js"></script>
+</body>
+</html>

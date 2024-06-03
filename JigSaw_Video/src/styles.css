@@ -1,0 +1,112 @@
+#base {
+    position: absolute;
+    border: none;
+    visibility: hidden;
+}
+
+form {
+    position: absolute;
+    z-index: 200;
+}
+
+body {
+    background: url('jigsaw-background.jpg');
+    height: 100%;
+    margin: 30px;
+}
+
+video {
+    display: none;
+    position: absolute;
+    z-index: 100;
+}
+
+h2 {
+    font-family: 'Comic Sans MS', cursive;
+    color: #FF6347;
+    weight: bold;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+.instructions {
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.instructions p {
+    font-weight: bold;
+}
+
+.instructions ol {
+    padding-left: 20px;
+}
+
+.instructions ol li {
+    margin-bottom: 10px;
+}
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 50%;
+    right: -200px;
+    transform: translateY(50%);
+    margin-top: 20px;
+}
+
+canvas {
+    margin-bottom: 20px; /* Add margin at the bottom of each puzzle piece */
+}
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+
+.feedback {
+
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 200px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+.feedback::placeholder {
+    color: #999;
+}
+
